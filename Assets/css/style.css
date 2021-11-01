@@ -1,0 +1,672 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.nav-bar-3 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+footer li {
+  list-style: none;
+  padding: 10px;
+}
+
+.third-links li {
+  padding: 5px 10px;
+  list-style: none;
+}
+
+.section-3-header ul li {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f42;
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline;
+}
+
+.item-footer a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #555;
+}
+
+.mini-logo a {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
+  padding: 0 36px;
+  background-repeat: no-repeat;
+}
+
+.first-links a,
+.second-links a {
+  color: #898989;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.third-links li a {
+  text-decoration: none;
+  color: #b6b6b6;
+  font-size: 14px;
+  font-family: "Play", sans-serif;
+}
+
+.section-3-header ul li a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f42;
+  text-decoration: none;
+}
+
+/* nav bar */
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.mini-logo {
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  display: none;
+}
+
+.nav-bar-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5px 0;
+}
+
+.content-below-list ul li {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+  padding: 6px 0 6px 14px;
+  position: relative;
+  list-style: none;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.section-1 div ul li {
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.item-body ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #555;
+}
+
+.section-1 div ul li a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.nav-bar-1 .first-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.nav-bar-1 .first-links li,
+.nav-bar-1 .second-links li {
+  padding: 0 5px;
+  list-style: none;
+}
+
+.nav-bar-1 .second-links {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+}
+
+.first-links a:hover {
+  color: #fff;
+}
+
+.second-links a:hover {
+  color: #fff;
+}
+
+#news {
+  color: #fff;
+}
+
+.nav-bar-2 {
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-2 i {
+  padding: 15px;
+  border-left: 1px solid #c7c7c7;
+  height: 100%;
+  color: #c7c7c7;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.third-links {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+
+.latest-description a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.section-4-descriptions a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.third-links li a:hover {
+  color: black;
+}
+
+.nav-bar-3 {
+  width: 100%;
+  background-color: #fd3;
+  padding: 8px 0 8px 10px;
+}
+
+/* section-1 */
+
+.tsv-logo {
+  background:
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
+    no-repeat;
+  width: 40%;
+  height: 100%;
+}
+
+.section-1 {
+  margin: 110px 0 30px 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  min-height: 60vh;
+  padding: 10px;
+}
+
+.section-1-1 {
+  grid-area: 1/1/3/3;
+  background-image:
+    linear-gradient(
+      to bottom right,
+      rgba(255, 69, 36, 0.8),
+      rgba(29, 8, 5, 0.8)
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/USSanate-796x420.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.section-1-2 {
+  grid-area: 1/3/2/3;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/brand-authority-796x417.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.section-1-3 {
+  grid-area: 2/3/3/3;
+  background-image:
+    linear-gradient(rgba(80, 40, 40, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Google-ban-zoom-796x531.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.inline {
+  display: inline;
+}
+
+.section-1 div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section-4-descriptions h5 {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 800;
+  font-family: Play, sans-serif;
+}
+
+.content-below h5 {
+  color: #f42;
+  text-transform: uppercase;
+}
+
+.section-1 div h5 {
+  color: white;
+}
+
+.latest-header h2 {
+  color: #f42;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-5-item h2 {
+  line-height: 1;
+}
+
+.section-3-header h2 {
+  color: #f42;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-1 div h2 {
+  color: white;
+}
+
+/* section 2 */
+
+.section-2 {
+  margin: 0 auto 30px auto;
+  max-width: 1152px;
+  padding: 50px 0 30px 0;
+}
+
+.latest-header {
+  padding-bottom: 10px;
+}
+
+.latest-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.latest-contents {
+  width: 100%;
+  overflow: hidden;
+}
+
+.latest-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.latest-description-a {
+  margin-bottom: 5px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.latest-description h6 {
+  color: #898989;
+}
+
+/* section-3 */
+
+.section-3 {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.section-3-flex {
+  max-width: 1152px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.section-3-item {
+  position: relative;
+  width: 25%;
+  margin: 20px 10px;
+  z-index: -10;
+}
+
+.item-h1 {
+  width: 100%;
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-h2 {
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+}
+
+.section-3-item img {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 10.6666666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.item-body {
+  background-color: rgb(255, 250, 248);
+  border-bottom: 1px solid rgb(255, 205, 194);
+  padding: 20px;
+}
+
+.item-body-ul-li {
+  list-style: none;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  padding: 7px 0;
+}
+
+.item-footer {
+  background-color: rgb(255, 250, 248);
+  padding: 20px;
+}
+
+.section-3-header {
+  max-width: 1152px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* section 4 */
+
+.image-1 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/slack-interface-customize-368x276.jpg")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-2 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_26d7fdfc-368x276.png")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-3 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/skype-video-calling-on-microsoft-edge1-368x276.jpg")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-4 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-Hyrule-368x276.jpg")
+    100% 100% no-repeat;
+}
+
+.image-5 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/128939125-368x276.jpg")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-6 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-7 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.image-8 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/montreux-qello-jazz-festival-free-shows-live-music-368x276.jpg")
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+.section-4 {
+  max-width: 1152px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 30px auto;
+}
+
+.section-4-contents {
+  width: 33%;
+  padding: 0 10px;
+  z-index: -10;
+}
+
+.section-4-descriptions {
+  width: 100%;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section-4-descriptions-a {
+  color: grey;
+  margin: 0 0 10px 10px;
+  text-decoration: none;
+}
+
+.section-4-descriptions .image-text {
+  color: #fff;
+  margin-left: 10px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.section-4-descriptions .image-text:hover {
+  text-decoration: underline;
+}
+
+.content-below {
+  background-color: rgb(255, 244, 242);
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.content-below img {
+  width: 96px;
+  height: 96px;
+}
+
+.content-below h4 {
+  color: #f42;
+  font-size: 15px;
+}
+
+.content-below-list ul li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* section-5 */
+.section-5 {
+  padding: 10px;
+  max-width: 1152px;
+  margin: 0 auto 30px auto;
+}
+
+.section-5-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-5-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.section-5-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.section-5-item-h2-a {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-5-item h2 a:hover {
+  text-decoration: underline;
+  color: #f42;
+}
+
+.section51 {
+  font-size: 13px;
+  text-decoration: line-through;
+  margin-right: 4px;
+  color: #aaa;
+}
+
+.section52 {
+  color: #555;
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+.footer-links {
+  background: #131313;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 25%;
+  padding: 20px;
+}
+
+.footer-links-social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links-social-li {
+  border-radius: 50%;
+  background-color: #333;
+  margin: 5px;
+
+}
+
+.footer-links-social i {
+  color: #fff;
+}
+
+.item-body ul li i {
+  margin: 0 3px;
+}
+
+.footer-links-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links-menu-a {
+  font-size: 14px;
+  font-family: "Play", sans-serif;
+}
+
+.footer-legal {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  font-size: 12px;
+}
+
+.footer-legal-tswlogo {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.footer-legal-logo {
+  width: 75px;
+}
+
+.footer-legal b {
+  color: red;
+}
+
+.footer-legal span {
+  display: inline-block;
+}
